@@ -1,0 +1,44 @@
+.carousel-indicators li{
+    width: 0.8rem;height: 0.8rem;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 0.5rem;
+}
+.carousel-indicators li.active{
+    background-color: #0aa1ed;
+}
+.carousel-control-next,.carousel-control-prev{
+    width: 4%;height: 20%;
+    background-color: #aaa;
+    border-radius: 0.25rem;
+    top: 40%;
+}
+.carousel-control-next{right: 0.25rem;}
+.carousel-control-prev{left: 0.25rem;}
+.top_height{height: 377px;background: #e8e8e8;}
+.bottom_height{height: 233px;background: #e8e8e8;}
+.border-bottom{border-color: #666!important;}
+.img_1L_1{
+        margin-right: 30px;
+        transition: transform 1s;}
+.img_1L_1:hover{
+    transform: scale(1.1);
+}
+@media (min-width:576px){
+    .img_1L_1{margin-top: -250px;}
+}
+@media(min-width:768px){
+    .img_1L_1{margin-top: -200px;}
+}
+@media (min-width:992px){
+    .img_1L_1{margin-top: -230px;}
+}
+@media(min-width:1200px){
+    .img_1L_1{margin-top: -200px;}
+}
+.img_1L_6{
+    transition: 1s;
+}
+.img_1L_6:hover{
+    transform: scale(1.1);
+}

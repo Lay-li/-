@@ -1,0 +1,25 @@
+.breadcrumb-item+.breadcrumb-item::before{
+	content: ">";
+}
+.btn-outline-primary{
+    color:gray;
+    background-color: transparent;
+    background-image: none;
+    border-color:gray;
+    border-radius: 0;
+}
+.btn-outline-primary:hover{
+    color:#0AA1ED ;
+    background-color: transparent;
+    background-image: none;
+    border-color:gray;
+    border-radius: 0;
+}
+.btn-outline-primary:active{
+    border:2px solid #0AA1ED;
+    background-color: transparent;
+    background-image: none;
+    border-color:gray;
+    border-radius: 0;
+    color:#0AA1ED ;
+}
